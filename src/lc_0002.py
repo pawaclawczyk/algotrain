@@ -14,6 +14,7 @@ Constraints:
 """
 import functools
 
+
 class Solution:
     @functools.lru_cache()
     def uniquePaths(self, m: int, n: int) -> int:
